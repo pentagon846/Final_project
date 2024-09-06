@@ -1,9 +1,12 @@
 [tool.poetry]
-name = "parking_service"
+name = "parking-service"
 version = "1.0.0"
 description = ""
 authors = ["FiveContinents_Coders"]
 readme = "README.md"
+packages = [
+    { include = "parking_service" }
+]
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.13"
